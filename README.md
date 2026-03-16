@@ -2,7 +2,7 @@
 
 Real-time Advanced Driver Assistance System (ADAS) combining classical computer vision (lane detection) and deep learning (YOLOv11 for vehicle detection).
 
-![ADAS Demo](adas_demo.gif)
+![ADAS Demo](adas_combined/adas_demo.gif)
 
 ---
 
