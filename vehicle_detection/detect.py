@@ -3,10 +3,10 @@ import cv2
 model= YOLO("yolo11n.pt") #Load the Model
 
 #Run the model on the image
-#results=model("/Users/jay1197/Downloads/retail_shelf_cv/lane_detection/road.jpg")
+#results=model("../media/road.jpg")
 
 #Run the model on camera
-results=model("/Users/jay1197/Downloads/retail_shelf_cv/lane_detection/solidWhiteRight.mp4",stream=True,conf=0.5)
+results=model("../media/solidWhiteRight.mp4",stream=True,conf=0.5)
 for result in results:
     frame=result.plot()
     cv2.imshow("detection",frame)

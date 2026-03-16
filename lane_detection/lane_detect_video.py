@@ -85,7 +85,7 @@ def process_frame(frame):
 
 
 if __name__ == "__main__":
-    cap = cv2.VideoCapture("solidWhiteRight.mp4")
+    cap = cv2.VideoCapture("../media/solidWhiteRight.mp4")
 
     if not cap.isOpened():
         raise RuntimeError("Could not open video file.")

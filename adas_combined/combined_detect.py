@@ -67,7 +67,7 @@ def get_lane_overlay(frame):
     return display_lines(frame,np.array(averaged_lines))
 if __name__ == "__main__":
     model=YOLO("yolo11n.pt")
-    cap=cv2.VideoCapture("solidWhiteRight.mp4")
+    cap=cv2.VideoCapture("../media/solidWhiteRight.mp4")
     while True:
         ret,frame=cap.read()
         if not ret:

@@ -58,7 +58,7 @@ def make_coordinates(image, line_parameters):
 
 
 if __name__ == "__main__":
-    image = cv2.imread("road.jpg")
+    image = cv2.imread("../media/road.jpg")
 
     gray    = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     blur    = cv2.GaussianBlur(gray, (5, 5), 0)

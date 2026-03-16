@@ -6,7 +6,7 @@ from combined_detect import get_lane_overlay
 
 print("Loading model and video...")
 model = YOLO("yolo11n.pt")
-cap = cv2.VideoCapture("solidWhiteRight.mp4")
+cap = cv2.VideoCapture("../media/solidWhiteRight.mp4")
 
 frames = []
 count = 0
